@@ -2,7 +2,7 @@ import os
 def decode():
     print('Enter 0 for switch to decode\n')
     print('Enter 00 to main menu\n')
-    text = input("Enter the text to encode : ").lower()
+    text = input("Enter the text to decode : ").lower()
     
     if text == "0":
         print("Switch to Encode")
