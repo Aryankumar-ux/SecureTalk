@@ -65,7 +65,9 @@ def decode():
                 check+=key_dict[encoded_text[find_key][0]]
     if int(check) != key1:
         print("Invalid key\nSorry i am not going to decode it")
-        decode()
+        while True:
+        	os.system('python3 Decode.py')
+        
     fresh=''
     f=0
     for filter in encoded_text:
@@ -82,4 +84,6 @@ def decode():
         else:
                 fnl+=final
     print("Orignal text :",fn)
+    while True:
+    	os.system('python3 Decode.py')
 decode()
